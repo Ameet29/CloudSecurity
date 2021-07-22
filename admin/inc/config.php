@@ -18,7 +18,7 @@ $dbuser = 'root';
 $dbpass = 'admin123';
 
 // Defining base url
-define("BASE_URL", "http://ecommerce-env.eba-8b8dmarw.us-east-1.elasticbeanstalk.com/");
+define("BASE_URL", "http://Ecommerce-env.eba-8b8dmarw.us-east-1.elasticbeanstalk.com");
 
 // Getting Admin url
 define("ADMIN_URL", BASE_URL . "admin" . "/");
