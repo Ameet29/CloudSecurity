@@ -6,19 +6,19 @@ ini_set('error_reporting', E_ALL);
 date_default_timezone_set('Asia/Kolkata');
 
 // Host Name
-$dbhost = 'e-commerce.cdr4a9axepic.us-east-1.rds.amazonaws.com';
+$dbhost = 'database.cdr4a9axepic.us-east-1.rds.amazonaws.com';
 
 // Database Name
 $dbname = 'fashiony_ogs';
 
 // Database Username
-$dbuser = 'admin';
+$dbuser = 'root';
 
 // Database Password
 $dbpass = 'admin123';
 
 // Defining base url
-define("BASE_URL", "http://ecommerce-env.eba-jm3v2naw.us-east-1.elasticbeanstalk.com/");
+define("BASE_URL", "http://ecommerce-env.eba-8b8dmarw.us-east-1.elasticbeanstalk.com/");
 
 // Getting Admin url
 define("ADMIN_URL", BASE_URL . "admin" . "/");
